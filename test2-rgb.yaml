@@ -12,6 +12,10 @@ api:
 ota:
   password: "52241b00f7515e17001cde5e5b55782a"
 
+dashboard_import:
+  package_import_url: github://esphome/esphome-project-template/project-template-esp32.yaml@main
+
+
 # Enable fallback hotspot (captive portal) in case wifi connection fails
 wifi:
   # Set up a wifi access point using the device name above
