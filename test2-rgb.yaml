@@ -18,9 +18,15 @@ wifi:
   ap:
     password: "12345678"
 
-#deep_sleep:
-#  run_duration: 60s
-#  sleep_duration: 10min
+# Sets up Bluetooth LE (Only on ESP32) to allow the user
+# to provision wifi credentials to the device.
+esp32_improv:
+  authorizer: none
+
+# Sets up the improv via serial client for Wi-Fi provisioning.
+# Handy if your device has a usb port for the user to add credentials when they first get it.
+improv_serial:
+
 
 web_server:
   port: 80
@@ -82,11 +88,3 @@ light:
           move_interval: 100ms
           scan_width: 1
 
-# Sets up Bluetooth LE (Only on ESP32) to allow the user
-# to provision wifi credentials to the device.
-esp32_improv:
-  authorizer: none
-
-# Sets up the improv via serial client for Wi-Fi provisioning.
-# Handy if your device has a usb port for the user to add credentials when they first get it.
-improv_serial:
