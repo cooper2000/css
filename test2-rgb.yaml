@@ -13,9 +13,10 @@ ota:
   password: "52241b00f7515e17001cde5e5b55782a"
 
 # Enable fallback hotspot (captive portal) in case wifi connection fails
+wifi:
+  # Set up a wifi access point using the device name above
   ap:
-    ssid: "Test2-Rgb Fallback Hotspot"
-    password: "YVUyPJAnXtE6"
+    password: "12345678"
 
 deep_sleep:
   run_duration: 60s
