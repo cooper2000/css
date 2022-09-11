@@ -1,6 +1,6 @@
 # About
 
-This is a test project
+This is a rgb led test project
 
 # Installation
 
