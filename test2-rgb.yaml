@@ -12,11 +12,7 @@ api:
 ota:
   password: "52241b00f7515e17001cde5e5b55782a"
 
-wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
+# Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Test2-Rgb Fallback Hotspot"
     password: "YVUyPJAnXtE6"
