@@ -18,6 +18,11 @@ wifi:
   ap:
     password: "12345678"
 
+web_server:
+  port: 80
+  version: 2
+
+captive_portal:
 # Sets up Bluetooth LE (Only on ESP32) to allow the user
 # to provision wifi credentials to the device.
 esp32_improv:
@@ -27,12 +32,6 @@ esp32_improv:
 # Handy if your device has a usb port for the user to add credentials when they first get it.
 improv_serial:
 
-
-web_server:
-  port: 80
-  version: 2
-
-captive_portal:
 light:
   - platform: neopixelbus
     type: GRB
