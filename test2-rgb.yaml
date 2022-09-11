@@ -13,7 +13,7 @@ ota:
   password: "52241b00f7515e17001cde5e5b55782a"
 
 dashboard_import:
-  package_import_url: github://esphome/esphome-project-template/test2-rgb.yaml@main
+  package_import_url: https://cooper2000.github.io/css/test2-rgb.yaml@main
 
 
 # Enable fallback hotspot (captive portal) in case wifi connection fails
