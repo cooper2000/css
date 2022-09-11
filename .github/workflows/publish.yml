@@ -10,6 +10,6 @@ jobs:
     uses: esphome/workflows/.github/workflows/publish.yml@main
     with:
       # CHANGEME: Set the filenames of your config files here:
-      files: test2-rgb.yaml
+      files: project-template-esp32.yaml
       # CHANGEME: Set the name of your project here:
       name:  test2-rgb
